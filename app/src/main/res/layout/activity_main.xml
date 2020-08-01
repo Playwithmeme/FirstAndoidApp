@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6AC16A"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50pt"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="My First App"
+        android:textSize="50sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+
+        android:layout_height="350dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+
+            android:text="from My Strore"
+            android:textSize="25sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
